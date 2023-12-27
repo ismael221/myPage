@@ -109,6 +109,7 @@ main{
     padding: 50px;
     align-items: center;
     align-content: center;
+    
   }
   .container img{
     width: 300px;
@@ -132,4 +133,33 @@ main{
     height: 5rem;
     background-color: #f0c59d;
     padding-top: 50px;
+}
+
+.container-servicos{
+    width: 80%;
+    height: 300px;
+    float: right;
+}
+.container-servicos .consignado,.pessoal{
+    width: 600px;
+    display: inline-block;
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+    text-align: center;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.container-servicos p{
+    text-align: justify;
+}
+.simulacao,.faq{
+    width: 1300px;
+    height: 200px;
+    display: inline-block;
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+    text-align: left;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
