@@ -3,6 +3,7 @@
     margin: 0;
 }
 /*main*/
+
 aside{
     width: 10%;
     display: inline-block
@@ -18,15 +19,14 @@ main{
 }
 
 .promo{
-    margin-left: 350px;
     width: auto ;
     height: auto;
     background-color: black;
+    align-items: center;
+    align-content: center;
 }
 .promo img{
-    max-width:  100%;
-    height: 300px;
-    float: right;
+    width: 100%;
 }
 
 
@@ -35,7 +35,7 @@ main{
     padding: 0;
     width: 100%;
     height: 85px;
-    background-color: #226add;
+    background-color: #dd6722;
 }
 .logo img{
     margin-left: 2rem;
@@ -47,9 +47,9 @@ main{
 
 
 .navbar{
-    background-color: #48d6d2;
+    background-color: #e9915e;
     width: 300px;
-    height: 675px;
+    height: 900px;
     margin-top: 10px;
     align-items: center;
     text-align: center;
@@ -66,16 +66,7 @@ main{
 }
 
 /*Footer*/
-.rodape{
-    text-align: center;
-    align-items: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 5rem;
-    background-color: #d4f7f6;
-    padding-top: 50px;
-}
+
 
 .fa {
     padding: 10px;
@@ -110,3 +101,35 @@ main{
     background: #3f729b;
     color: white;
   }
+
+  .container{
+    width: 400px;
+    height: 300px;
+    display: inline-block;
+    padding: 50px;
+    align-items: center;
+    align-content: center;
+  }
+  .container img{
+    width: 300px;
+    margin-left: 50px;
+    display: flex;
+  }
+  .container p{
+    text-align: justify;
+  }
+  .main-container{
+    margin: auto;
+    width: 100%;
+    padding-bottom: 20px
+  }
+  .rodape{
+    text-align: center;
+    align-items: center;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    height: 5rem;
+    background-color: #f0c59d;
+    padding-top: 50px;
+}
