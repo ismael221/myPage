@@ -49,7 +49,7 @@ main{
 .navbar{
     background-color: #e9915e;
     width: 300px;
-    height: 900px;
+    height: 1300px;
     margin-top: 10px;
     align-items: center;
     text-align: center;
@@ -155,7 +155,7 @@ main{
 }
 .simulacao,.faq{
     width: 1300px;
-    height: 200px;
+    height: 300px;
     display: inline-block;
     padding: 20px;
     margin-top: 50px;
@@ -163,3 +163,78 @@ main{
     text-align: left;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
+.container-desc{
+    width: 1350px;
+    display: inline-block;
+    padding: 20px;
+    margin-top: 50px;
+    text-align: left;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    align-items: center;
+    align-content: center;
+}
+.client{
+    width: 1300px;
+    height: 100px;
+    display: inline-block;
+    padding: 20px;
+    margin-top: 50px;
+    text-align: left;
+}
+.client img{
+    width: 105%;
+}
+
+.perguntas{
+    text-align: justify;
+    padding: 20px;
+    font-size: 20px;
+}
+button{
+    border-radius: 10px;
+    padding: 10px;
+    font-size: large;
+    margin-left: 1000px;
+    text-align: center;
+    display: inline-block;
+    width: 300px;
+    background-color: #e9915e;
+    color: white;
+    font-weight: 900;
+    border: none;
+}
+input{
+    padding: 10px;
+}
+input[type="text"]{
+    font-size: 22px;
+    width: 600px;
+    height: 25px;
+    border-radius: 10px;
+    margin: 10px;
+}
+label{
+    font-size: 25px;
+    padding: 5px;
+    align-items: center;
+}
+input[type="radio"] {
+    margin: 10px;
+    width: 22px; /* Define a largura da bolinha */
+    height: 22px; /* Define a altura da bolinha */
+  }
+  input[type="checkbox"] {
+    margin: 10px;
+    width: 22px; /* Define a largura da bolinha */
+    height: 22px; /* Define a altura da bolinha */
+  }
+  select {
+    width: 300px;
+    font-size: 16px; /* Ajuste o tamanho do texto conforme necessário */
+    height: 40px;   /* Ajuste a altura total conforme necessário */
+  }
+  .logo img{
+    margin: 15px;
+    padding: 10px;
+    width: 200px;
+  }
